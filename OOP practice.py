@@ -5,7 +5,7 @@ class Programmer:
         self.product = product
     def getInfo(self):
         print(f"The name of the {self.company} programmer is {self.name} and the product is {self.product}")
-harry = Programmer("Harry", "Skype")
+harry = Programmer("Virat", "Skype")
 Alka = Programmer("Alka", "GitHub")
 harry.getInfo()
 Alka.getInfo()
@@ -34,7 +34,7 @@ a.square()
 a.squareRoot()
 
 class Sample:
-    a = "Harry"
+    a = "Virat"
 
 obj = Sample()
 obj.a = "Vikky"
@@ -71,6 +71,6 @@ class Sample:
     def __init__(slf,name):
         slf.name = name
 
-obj = Sample("Harry")
+obj = Sample("Virat")
 print(obj.name)
 
