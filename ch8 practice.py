@@ -1,14 +1,12 @@
-# def func1(name):
-#     print("Good Day, "+name)
-#
-# func1("Ansh")
+def func1(name):
+    print("Good Day, "+name)
 
-# def max(a,b,c):
+func1("Ansh")
+def max(a,b,c):
 
-     # if a>b:
-
-#         return a
-#     elif b>a and b>c:
+      if a>b:
+        return a
+    elif b>a and b>c:
 #         return b
 #     elif c>a and c>b:
 #         return c
@@ -25,11 +23,11 @@
 # f=farh(c)
 # print("Fahrenheit Temperature is "+ str(f))
 
-# end implies \n
-# print("Hello",end=" ")
-# print("How",end=" ")
-# print("are",end=" ")
-# print("you?")
+end implies \n
+print("Hello",end=" ")
+print("How",end=" ")
+print("are",end=" ")
+print("you?")
 
 # sum(n)=sum(n-1)+n
 # def sum_i(n):
